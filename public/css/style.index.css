@@ -1,0 +1,15 @@
+.top-content{
+  background-color: brown;
+}
+
+.main-content{
+  background-color: chartreuse;
+}
+.sub-content{
+  background-color: cornflowerblue;
+}
+.member-list{
+  background-color: crimson;
+  height: 100%;
+  width: 100%;
+}

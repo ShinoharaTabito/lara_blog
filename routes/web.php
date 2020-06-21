@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 
 Route::resource('portfolio', 'PortfolioController', ['only' => ['index','show']]);
+
+Route::get('new', function () {
+    return view('new');
+});
