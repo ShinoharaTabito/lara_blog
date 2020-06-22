@@ -3,15 +3,18 @@
 @section('title', "トップページ")
 
 @section('header')
+    <div class="top-header">就活生のためのポートフォリオサイト
+      <a href="{{url('/new')}}">新規登録</a>
+      <a href="{{url('#')}}">ログイン</a>
+    </div>
     <div class="header-leftbar">blogのタグ一覧バー(左に現れる)</div>
     <div class="header-rightbar">ポートフォリオのタグ一覧バー(右に現われる)</div>
-    <div class="top-header">就活生のためのポートフォリオサイト</div>
 @endsection
 
 @section('content')
     <div class="top-content">
       <p class="title">Laravel Blogのトップページです。</p>
-      <a href="{{url('/new')}}">新規登録</a>
+      <div class="welcome-display">welcome画面</div>
     </div>
     <div class="main-content">
       <div class="portfolio-article">ポートフォリオの一覧です</div>
