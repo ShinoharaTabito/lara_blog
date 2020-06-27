@@ -6,6 +6,7 @@
   <title>@yield('title')</title>
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style.index.css') }}">
 </head>
 <body>
   <header>@yield('header')</header>
