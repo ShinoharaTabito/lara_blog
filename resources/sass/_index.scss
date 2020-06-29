@@ -1,0 +1,44 @@
+.top-header{
+  background-color: whitesmoke;
+  width: 100%;
+  min-width: 1200px;
+  padding: 10px 0 30px 0;
+  text-align: center;
+}
+
+.header-leftbar{
+  background-color: darkgrey;
+  width: 50px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+}
+.header-rightbar{
+  background-color: darkgrey;
+  width: 50px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9998;
+}
+
+.top-content{
+  background-color: brown;
+  width: 100%;
+  height: 100%;
+}
+
+.main-content{
+  background-color: whitesmoke;
+}
+.sub-content{
+  background-color: cornflowerblue;
+}
+.member-list{
+  background-color: crimson;
+  height: 100%;
+  width: 100%;
+}
