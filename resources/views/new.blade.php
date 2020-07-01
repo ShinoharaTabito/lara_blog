@@ -6,3 +6,8 @@
     <p>Laravel Blog新規登録ページです。</p>
     <a href="{{url('/portfolio')}}">トップページへ戻る</a>
 @endsection
+
+@section('content')
+    <p>Laravel Blog新規登録ページです。</p>
+    <a href="{{url('/portfolio')}}">トップページへ戻る</a>
+@endsection
